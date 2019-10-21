@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="WebApplication1.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div style="background: black; height: 87px; font-weight: bold; font-size: 20px; color: white; font-family: Verdana">
+                <br />
+                <asp:ContentPlaceHolder ID="TitleContent" runat="server">
+                    <h1 style="font-size:20px; text-align:center">Лабораторная 32</h1>
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <br /> <br />
+             <asp:Button runat="server" Text="OK" BorderStyle="Groove"  Height="42px" Width="54px"/>
+        </div>
+    </form>
+</body>
+</html>

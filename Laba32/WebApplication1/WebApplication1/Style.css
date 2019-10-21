@@ -1,0 +1,11 @@
+﻿.Style {
+    font-family: 'Courier New';
+    font-size: xx-small;
+    font-weight: 100
+}
+
+.style_label {
+    font-family: 'Bernard MT';
+    font-size: larger;
+    font-weight: bold
+}
